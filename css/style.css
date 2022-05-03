@@ -68,6 +68,11 @@ img {
   border-style: none;
 }
 
+.lists {
+  text-decoration: none;
+  background-color: rgb(165, 216, 216);
+}
+
 /* Navbar */
 .navbar {
   background-color: var(--primary-color);
@@ -359,7 +364,8 @@ a:hover {
 }
 
 /* Features*/
-.features-head img {
+.features-head img,
+.docs-head img {
   width: 200px;
   justify-self: flex-end;
 }
@@ -392,6 +398,33 @@ a:hover {
 .c-figure {
   margin: auto;
   height: auto;
+}
+
+/* Docs*/
+.docs-main h3 {
+  margin: 20px 0;
+}
+
+.docs-main .grid {
+  grid-template-columns: 1fr 2fr;
+  align-items: flex-start;
+}
+
+.docs-main nav li {
+  font-size: 17px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px #ccc solid;
+}
+
+.docs-main a:hover {
+  font-weight: bold;
+}
+
+.docs-allign {
+  width: 300;
+  height: auto;
+  justify-self: flex-end;
 }
 
 /* Footer */
