@@ -218,6 +218,145 @@ a:hover {
   font-weight: 120;
 }
 
+/* Tree */
+.l-container {
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 80rem;
+}
+
+.c-page--high-cost-of-cancer-treatment .c-three-row-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-row-gap: 1.25rem;
+  grid-column-gap: 1.25rem;
+}
+
+ .c-three-row-grid {
+  max-width: 56.9375rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2rem;
+}
+
+ .c-block--flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 1.25rem 2rem;
+}
+
+ .c-block--white {
+  background-color: #fff;
+}
+
+ .c-block__source {
+  margin-top: auto;
+}
+
+ .c-block--flex {
+  display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+   -ms-flex-direction: column;
+   flex-direction: column;
+   padding: 1.25rem 2rem;
+}
+
+ .c-three-row-grid h6 {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+ .c-text--primary {
+  color: #93b1bd;
+}
+
+ .c-block-three {
+  grid-row: span 2;
+  -ms-grid-column: 3;
+  grid-column: 3;
+}
+
+ .c-block__media {
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+.c-heading {
+  text-align: center;
+  margin-top: 0;
+}
+
+.c-line {
+  text-align: center;
+}
+
+/* Annual-chart*/
+
+.p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.c-figure--container-expand .c-figure__image-wrap {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.c-figure__image-wrap {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  display: block;
+  height: 100%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c-figure__image {
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+  position: relative;
+  border-radius: 0.5rem;
+}
+
+/* Blue-collar*/ 
+.c-figure__image-wrap {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  display: block;
+  height: 100%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c-figure__image-wrap {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  display: block;
+  height: 100%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* Footer */
 .footer .social a {
